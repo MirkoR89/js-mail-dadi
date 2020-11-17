@@ -13,6 +13,8 @@ var emailList = [
 ]
 console.log(emailList);
 
-for (var i=6; i < emailList.length; i++) {
-  console.log(emailList[i]);
+// Conferma email
+for (var i=0; i < emailList.length; i++) {
+  document.getElementById("email_cnfrm").innerHTML = "La tua email è stata confermata";
+
 }
